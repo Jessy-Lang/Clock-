@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(206, 113, 193);
+    margin: 0;
+    height: 100vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+#clock {
+  color: #f8f0f4; 
+    font-size: xx-large;
+    text-align: center;
+    padding: 20px 40px;
+    border: 2px solid #e7cce0; /* altrosa Rahmen */
+    border-radius: 75px;
+    background: linear-gradient(135deg, #e0b4d9 0%, #e8c9d3 100%); /* sanfter rosa Verlauf */
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+   
+    box-shadow: 0 4px 15px rgba(236, 156, 219, 0.6);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+
+#clock:hover {
+    box-shadow: 0 8px 30px rgba(209, 140, 167, 0.9);
+    transform: scale(1.05);
+}
+
+    
